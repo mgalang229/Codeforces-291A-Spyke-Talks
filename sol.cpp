@@ -24,7 +24,7 @@ int main() {
 	int prev = 0;
 	// create a 'pairs' variable to count the number of pairs
 	int pairs = 0;
-	// create a 'cnt' to count the occurrences of each number
+	// create a 'cnt' variable to count the occurrences of each number
 	int cnt = 0;
 	for (int i = 0; i < (int) id.size(); i++) { 
 		if (id[i] != prev) {
